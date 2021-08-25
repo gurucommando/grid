@@ -1,0 +1,36 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap:10px;
+    border:2px dotted red ;
+  
+   
+}
+.header{
+    grid-column:1;
+    grid-row:1;
+    
+}
+.asid{
+    grid-column:1;
+    grid-row:2;
+}
+.mainart{
+
+}
+
+    
+.art1{
+    grid-column: 2;
+    grid-row: 1;
+  
+}
+
+
+.foot{
+    grid-column:2;
+    grid-row: 1;
+
+
+}
